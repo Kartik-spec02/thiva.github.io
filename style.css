@@ -1,0 +1,109 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+body
+{
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+	background: url(https://i.ibb.co/VCt8M9m/remd.png) ;
+	background-size: 7501px 3001px;
+}
+
+header
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 30px 10px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	z-index: 1000;
+}
+header ul 
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+header ul li 
+{
+	list-style: none;
+	margin-left: 20px;
+}
+header ul li a 
+{
+	text-decoration: none;
+	padding: 6px 15px;
+	color: #fff;
+	border-radius: 20px;
+}
+header ul li a:hover,
+header ul li a.active
+{
+	background: #fff;
+	color: #2b1055;
+}
+section
+{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	padding: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+section img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}	
+section img
+{
+	mix-blend-mode: screen;
+}
+#text 
+{
+    position: absolute;	
+    color: #fff;
+    white-space: nowrap;
+    font-size: 5.5vw;
+        z-index: 9;
+}
+#btn
+{
+	text-decoration: none;
+	display: inline-block;
+	padding: 8px 30px;
+	border-radius: 40px;
+	background: #fff;
+	color: #2b1055;
+	font-size: 1.5em;
+	z-index: 9;
+	margin-left: 700px;
+	align-items: center;
+	top: 40px;
+}
+.box
+{
+	width: 450px;
+	background: rgba(0, 0, 0, 0.4);
+	padding: 40px;
+	text-align: center;
+	margin: auto;
+	margin-top: 5%;
+	color: white;
+	font-family: 'Century Gothic', sans-serif;
+}
+
